@@ -8,7 +8,7 @@
 <body
 
 <h1>Strona internetowa</h1>
-<a href="https://nataka28.github.io/strona/index.html">Strona 2</a>
+<a href="https://nataka28.github.io/strona">Strona główna</a>
 <p>Akapit.</p>
 
 </body>
