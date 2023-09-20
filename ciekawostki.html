@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8"/>
+	<title>Ochrona środowiska</title>
+	<meta name="description" content="Moja własna strona internetowa!"/>
+	<meta name="keywords" content=""/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="shortcut icon" href="img/favicon.ico"/>
+	
+	<style>
+		.tile3
+{
+	height: 39px;
+	background-color: #007d7d;
+}
+	</style>
+</head>
+
+<body>
+	<div id="container">
+		<div id="logo">
+		<img src="img/zdjeciep.jpg" height="200px" width="1000px"/>
+		</div>
+	
+	<div id="nav">
+	<div class="tile1">
+	<a href="index.html" class="tilelink">Menu</a>
+	</div>
+	<div class="tile2">
+	<a href="zarty.html" class="tilelink">Żarty</a></div>
+	<div class="tile3">
+	<a href="ciekawostki.html" class="tilelink">Ciekawostki</a></div>
+	<div class="tile4">
+	<a href="kontakt.html" class="tilelink">Kontakt</a></div>
+
+	</div>
+	<div id="spis">
+	<ol class="jakdbac"> 
+   	<h4>Spis treści:</h4>
+			<li><a href="#pilkarskie" class="dblink">Piłkarskie</a></li>
+			<li><a href="#modowe" class="dblink">Modowe.</a></li>
+
+</div>
+
+	<div id="content">
+	<section>
+	   	<h2>Ciekawostki</h2>
+		 <article>
+	 <h4 id="pilkarskie">Piłkarskie</h4>
+	 <hr color="#007d7d">
+<p style="text-indent: 5%; " >Stadiony piłkarskie potrafią robić wrażenie, zwłaszcza te o dużej pojemności lub położone w szczególnych miejscach. Dobrym przykładem jest najwyżej położony stadion na świecie, który położony jest w La Paz w Boliwii na wysokości 4100 m n.p.m. Z kolei najnowocześniejszy stadion olimpijski mieści się w Sydney w Australii, a zaprojektował i nadzorował jego budowę polski inżynier Edmund Obiała. Stadion, który zyskał tytuł największego w historii to Stadion im. 1 Maja w Pjongjangu w Korei Północnej. Jego pojemność to aż 150 000 miejsc siedzących! </p>
+<hr color="#007d7d">
+<p style="text-indent: 5%; " >Piłka nożna ma podobno swoje korzenie w starożytnej Azji. W grę przypominającą dzisiejszą piłkę nożną grano w Chinach już około 2 300 lat temu. Natomiast pierwsze pisemne świadectwa o tej popularnej grze można znaleźć w pismach pochodzących z około 476 r. p.n.e. Dyscyplina sportowa w  formie, którą znamy dziś, wywodzi się z Wielkiej Brytanii, a najstarszym klubem sportowym na świecie jest FC Sheffield założony w 1857 roku przez brytyjskich oficerów. </p>
+<hr color="#007d7d">
+<p style="text-indent: 5%; " >Sędzia, który sam sobie dał czerwoną kartkę
+	Brzmi zabawnie, ale to nie żart. Ta sytuacja zdarzyła się w 1998 roku. Sędzia Martin Sylvester sam usunął się z boiska. Jaki był tego powód? Otóż poważny – sędzia ukarał się za podniesienie ręki na jednego z piłkarzy podczas meczu w Andover & District Sunday League. No, no, rączki przy sobie!</p>
+<h4 id="modowe">Modowe</h4>
+<hr color="#007d7d">
+<p style="text-indent: 5%; ">Kolorowe skarpety mają już ponad sto lat. Był początek XX wieku, a na stopach mężczyzn pojawiły się pierwsze kolorowe skarpety. Takie rozwiązanie wprowadza marka Brooks Brothers. Jest to przełamanie szarości, przewidywalności jednolitych kolorów. Skarpety dla mężczyzn, którzy dbają o najdrobniejszy szczegół. </p>
+<hr color="#007d7d">
+<p style="text-indent: 5%; ">Możemy wyróżnić trzy rodzaje zdobień buta: semi-brogues/half-brogues, full-brogues, longwig-brogues, Pierwotnie zdobienia jakie obecnie znajdują się na tych butach były dziurkami. Taką technikę stosowali leśnicy i chłopi z Wysp Brytyjskich, którzy robili w swoich butach dziurki po to, aby woda, która dostawała się do środka butów szybciej z nich wypływała. Przyspieszało to proces suszenia butów.</p>
+<hr color="#007d7d">
+<p style="text-indent: 5%; ">Butonierka to mała dziurka w klapie, która pierwotnie służyła do zapinania ich w chłodniejsze dni. Z czasem, kiedy trendy się zmieniały, klapy które pierwotnie były zapinane w jesienią i zimą zmieniły swoją funkcję, mimo to dziurka ta została. Zaczęto więc ją wykorzystywać do wkładania przypinek i kwiatów, najczęściej goździków.</p>
+</article> 
+ </section>
+	</div>
+	
+	<div id="footer">
+	By Nataka28 &copy; Wszelkie prawa zastrzeżone <span id="currentDate"></span>
+	</div>
+	<script>
+		function aktualizujDate() {
+			const currentDateElement = document.getElementById("currentDate");
+			const aktualnaData = new Date();
+			currentDateElement.textContent = aktualnaData.toLocaleDateString() + " " + aktualnaData.toLocaleTimeString();
+		}
+
+		// Wywołanie funkcji aktualizującej datę na początku
+		aktualizujDate();
+
+		// Ustawienie interwału, aby odświeżać datę co sekundę
+		setInterval(aktualizujDate, 1000);
+	</script>
+</body>
+</html>
