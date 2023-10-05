@@ -15,6 +15,18 @@
 	height: 39px;
 	background-color: #007d7d;
 }
+#video-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .video {
+            margin: 10px;
+            flex-basis: calc(50% - 20px);
+        }
+
 	</style>
 </head>
 
@@ -39,16 +51,32 @@
 	<div id="spis">
 	<ol class="jakdbac"> 
    	<h4>Spis treści:</h4>
-			<li><a href="#pilkarskie" class="dblink">Piłkarskie</a></li>
+			<li><a href="#narodowe" class="dblink">Narodowe.</a></li>
+			<li><a href="#pilkarskie" class="dblink">Piłkarskie.</a></li>
 			<li><a href="#modowe" class="dblink">Modowe.</a></li>
-
 </div>
 
 	<div id="content">
 	<section>
 	   	<h2>Ciekawostki</h2>
 		 <article>
-	 <h4 id="pilkarskie">Piłkarskie</h4>
+			<h4 id="narodowe">Narodowe</h4>
+			<hr color="#007d7d">
+			<p style="text-indent: 5%; " >Odbyło się dnia: 03.10.2023r. wielkie wydarzenie narodowe. Odbył się koncert narodowościowy w Zwierzyńcu! A o to wideo z tak ważnego dnia dla zwierzyńca!</p>
+	     
+			<section id="video-container">
+				<div class="video">
+					<iframe width="430" height="476" src="https://www.youtube.com/embed/JZBKm2BVUL4" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="video">
+				<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F100038756511179%2Fvideos%2F1039629600784403%2F&show_text=false&width=267&t=0" width="430" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+				</div>
+				<audio controls autoplay preload loop>
+					<source src="img/Rota.mp3" type="audio/mpeg">
+					Twoja przeglądarka nie obsługuje elementu audio.
+				  </audio>
+			</section>
+			<h4 id="pilkarskie">Piłkarskie</h4>
 	 <hr color="#007d7d">
 <p style="text-indent: 5%; " >Stadiony piłkarskie potrafią robić wrażenie, zwłaszcza te o dużej pojemności lub położone w szczególnych miejscach. Dobrym przykładem jest najwyżej położony stadion na świecie, który położony jest w La Paz w Boliwii na wysokości 4100 m n.p.m. Z kolei najnowocześniejszy stadion olimpijski mieści się w Sydney w Australii, a zaprojektował i nadzorował jego budowę polski inżynier Edmund Obiała. Stadion, który zyskał tytuł największego w historii to Stadion im. 1 Maja w Pjongjangu w Korei Północnej. Jego pojemność to aż 150 000 miejsc siedzących! </p>
 <hr color="#007d7d">
